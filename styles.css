@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Helvetica Neue', sans-serif; /* Choose a clean sans-serif font */
+    font-family: 'Helvetica Neue', sans-serif;
     background-color: black;
     color: white;
     line-height: 1.6;
@@ -17,9 +17,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    border-bottom: 1px solid #555;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     background: black;
     z-index: 1000;
 }
@@ -35,6 +36,9 @@ body {
     font-weight: 500;
     text-transform: uppercase;
 }
+.main-header nav a.active {
+    color: gray;
+}
 .main-header nav a:hover {
     color: gray;
 }
@@ -44,6 +48,7 @@ body {
     padding: 5rem 2rem;
     text-align: center;
     margin: 0 auto;
+    margin-top: 4rem; /* Add extra spacing below the fixed header */
 }
 .section h1 {
     font-size: 3rem;
@@ -112,7 +117,6 @@ body {
 footer {
     text-align: center;
     padding: 1rem 0;
-    border-top: 1px solid #555;
     font-size: 0.9rem;
     margin-top: 2rem;
 }
