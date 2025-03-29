@@ -1,251 +1,98 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Phantom by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <head>
+        <title>Monotone - because less is more</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!-- Add Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    fontFamily: {
+                        'sans': ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+                    },
+                }
+            }
+        </script>
+        <style>
+            body {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        </style>
+    </head>
+    <body class="bg-[#fcfcfc] font-sans">
+        <!-- Hero Section -->
+        <section class="container mx-auto px-6 py-16">
+            <div class="flex flex-col items-center">
+                <!-- Centered Image -->
+                <div class="w-3/4 flex justify-center">
+                    <img 
+                        src="images/all_openpeeps.png" 
+                        alt="Transhumans Pilot" 
+                        class="w-full object-contain"
+                        style="max-height: 1000px;"
+                    >
+                </div>
+                
+                <!-- Text Content Below -->
+                <div class="text-center max-w-2xl mt-12">
+                    <h1 class="text-6xl font-bold mb-6 text-black">
+                        Hello,<br>
+                        This is Shounak
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Machine Learning Engineer | Data Scientist
+                    </p>
+                </div>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+                <!-- Navigation Links -->
+                <div class="flex space-x-12 mt-8">
+                    <a href="#" class="text-gray-600 hover:text-black text-lg">About</a>
+                    <a href="#" class="text-gray-600 hover:text-black text-lg">Projects</a>
+                    <a href="#" class="text-gray-600 hover:text-black text-lg">Blog</a>
+                </div>
+            </div>
+        </section>
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Home</span>
-								</a>
+        <!-- About Section -->
+        <section class="container mx-auto py-16">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-6 text-black text-center">About Me</h2>
+                
+                <div class="grid md:grid-cols-5 gap-8 items-center">
+                    <!-- Profile Image -->
+                    <div class="flex justify-center md:col-span-1">
+                        <img 
+                            src="images/about.svg" 
+                            alt="Shounak's Profile" 
+                            class="w-full max-w-[200px]"
+                        >
+                    </div>
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
+                    <!-- About Text -->
+                    <div class="space-y-4 md:col-span-4">
+                        <p class="text-lg text-gray-600">
+                            Hi there! I'm a Machine Learning Engineer and Data Scientist passionate about solving complex problems through AI and data-driven solutions.
+                        </p>
+                        <p class="text-lg text-gray-600">
+                            With experience in deep learning, computer vision, and natural language processing, I help organizations leverage the power of AI to drive innovation and efficiency.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						</div>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Projects</a></li>
-							<li><a href="generic.html">CV</a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>This is Shounak,<br />
-									Machine Learning Engineer | Data Scientist
-								</h1>
-								<p>I am a MSc Student at <a href="https://www.imperial.ac.uk/">Imperial College London </a> studying Artificial Intelligence. I'm from Kolkata, but 
-									have lived in Hong Kong for several years before moving to London. I graduated with a First Class 
-									Honours Degree in Biomedical Engineering from <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a> and spent about two years 
-									working as a data scientist in one of Hong Kong's largest virtual banks. 
-								</p>
-								<p> My current interests include building reliable decision support systems for various applications
-									including finance and healthcare. Apart from coding, I enjoy travelling and reading fantasy novels. 
-								</p>
-							</header>
-							<section class="tiles">
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Fraud Network Analytics</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic07.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Time Deposit Pricing</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Predicting BGL from PPG</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Mask RCNN</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>COVID 19 Resource</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Exploring Marvel</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Robotic Wheelchair</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-<!-- 								<article class="style3">
-									<span class="image">
-										<img src="images/pic08.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dolor</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic09.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Nullam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article> -->
-<!-- 								<article class="style5">
-									<span class="image">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ultricies</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article> -->
-<!-- 								<article class="style6">
-									<span class="image">
-										<img src="images/pic11.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dictum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article> -->
-<!-- 								<article class="style4">
-									<span class="image">
-										<img src="images/pic12.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Pretium</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article> -->
-							</section>
-						</div>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<!-- <section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section> -->
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<!-- <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-									<li><a href="https://github.com/s24imlon" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<!-- <li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li> -->
-									<!-- <li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li> -->
-								</ul>
-							</section>
-							<ul class="copyright">
-								<li>&copy; Shounak. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        <!-- Footer -->
+        <footer class="bg-black mt-20">
+            <div class="container mx-auto px-6 py-8">
+                <div class="text-center mt-6 text-white">
+                    © 2025 Shounak. All rights reserved. Illustrations by <a href="https://openpeeps.com/" class="underline">Open Peeps</a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
