@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Monotone - because less is more</title>
+        <title>Shounak's Portfolio</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
@@ -49,12 +49,6 @@
                     </p>
                 </div>
 
-                <!-- Navigation Links -->
-                <div class="flex space-x-12 mt-8">
-                    <a href="#" class="text-gray-600 hover:text-black text-lg">About</a>
-                    <a href="#" class="text-gray-600 hover:text-black text-lg">Projects</a>
-                    <a href="#" class="text-gray-600 hover:text-black text-lg">Blog</a>
-                </div>
             </div>
         </section>
 
@@ -67,20 +61,285 @@
                     <!-- Profile Image -->
                     <div class="flex justify-center md:col-span-1">
                         <img 
-                            src="images/about.svg" 
+                            src="images/peep-sitting-3.svg" 
                             alt="Shounak's Profile" 
                             class="w-full max-w-[200px]"
                         >
                     </div>
 
                     <!-- About Text -->
-                    <div class="space-y-4 md:col-span-4">
+                    <div class="space-y-4 md:col-span-4 px-4 sm:px-6 md:px-8 lg:px-10">
                         <p class="text-lg text-gray-600">
                             Hi there! I'm a Machine Learning Engineer and Data Scientist passionate about solving complex problems through AI and data-driven solutions.
                         </p>
                         <p class="text-lg text-gray-600">
                             With experience in deep learning, computer vision, and natural language processing, I help organizations leverage the power of AI to drive innovation and efficiency.
                         </p>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-8">
+                    <p class="text-lg text-gray-600">
+                        I am a MSc Student at <a href="https://www.imperial.ac.uk/"> <u>Imperial College London </u></a> studying Artificial Intelligence. I'm from Kolkata, but 
+                         have lived in Hong Kong for several years before moving to London. I graduated with a First Class 
+                         Honours Degree in Biomedical Engineering from <a href="https://www.cityu.edu.hk/"><u>City University of Hong Kong</u></a> and spent about two years 
+                         working as a data scientist in <a href="https://mox.com/"><u>one of Hong Kong's largest virtual banks</u></a>. 
+                     </p>
+
+                </div>
+                <div class="flex justify-center mt-8">
+                    <p class="text-lg text-gray-600">
+                        Connect with me on <a href="https://www.linkedin.com/in/shounaknaskar/"><u>Linkedin</u> </a> or on <a href="https://github.com/s24imlon"><u>Github</u></a>. 
+                     </p>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="container mx-auto py-16">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-6 text-black text-center">Awards</h2>
+                
+                <div class="grid md:grid-cols-5 gap-8 items-center">
+                    <!-- Profile Image -->
+                    <div class="flex justify-center md:col-span-1">
+                        <img 
+                            src="images/peep-18.svg" 
+                            alt="Shounak's Profile" 
+                            class="w-full max-w-[200px]"
+                        >
+                    </div>
+
+                    <!-- About Text -->
+                    <div class="space-y-4 md:col-span-4 px-4 sm:px-6 md:px-8 lg:px-10">
+                        <p class="text-lg text-gray-600">
+                            HKSAR Government Scholarship for outstanding academic performance | City University of Hong Kong Full Tuition Scholarship 
+                            | Mr. Chiu Fuk San Academic Scholarships | HK ICT Award - Student Innovation Silver Award
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section class="w-full py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold mb-12 text-black text-center">Projects</h2>
+                
+                <!-- Row 1: Image Left -->
+                <div class="max-w-4xl mx-auto mb-16">
+                    <div class="grid md:grid-cols-5 gap-8 items-center">
+                        <div class="flex justify-center md:col-span-1">
+                            <img 
+                                src="images/llm.jpg" 
+                                alt="AI Safety Testing Illustration" 
+                                class="w-full max-w-[150px] object-contain"
+                            >
+                        </div>
+                        <div class="space-y-4 md:col-span-4 px-4 sm:px-6 md:px-8 lg:px-10">
+                            <h3 class="text-2xl font-bold text-black">Red-teaming OpenAI</h3>
+                            <p class="text-lg text-gray-600">
+                                This project leveraged OpenAI's API to generate and test adversarial prompts designed to elicit harmful responses from language models. Multiple LLMs were evaluated using an automated classifier to analyze their susceptibility and response patterns. The findings provided insights into jailbreak effectiveness, model robustness, and safety mechanisms.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Image Right -->
+                <div class="max-w-4xl mx-auto mb-16">
+                    <div class="grid md:grid-cols-5 gap-8 items-center">
+                        <div class="space-y-4 md:col-span-4 px-4 sm:px-6 md:px-8 lg:px-10 md:order-first">
+                            <h3 class="text-2xl font-bold text-black">Detecting patronising and condescending language using transformers</h3>
+                            <p class="text-lg text-gray-600">
+                                This project involved developing a binary classification model to detect patronizing and condescending language in text. Using transformer-based models, various techniques such as data augmentation, hyperparameter tuning, and ensembling were explored to improve performance beyond the RoBERTa-base baseline. The results were analyzed to understand the impact of input length, data categories, and model biases.
+                            </p>
+                        </div>
+                        <div class="flex justify-center md:col-span-1">
+                            <img 
+                                src="images/pcl.png" 
+                                alt="Gallery Image 2" 
+                                class="w-full max-w-[150px] object-contain scale-x-[-1]"
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3: Image Left -->
+                <div class="max-w-4xl mx-auto mb-16">
+                    <div class="grid md:grid-cols-5 gap-8 items-center">
+                        <div class="flex justify-center md:col-span-1">
+                            <img 
+                                src="images/fraud.jpg" 
+                                alt="Gallery Image 3" 
+                                class="w-full max-w-[150px] object-contain"
+                            >
+                        </div>
+                        <div class="space-y-4 md:col-span-4 px-4 sm:px-6 md:px-8 lg:px-10">
+                            <h3 class="text-2xl font-bold text-black">Fraud Network Analytics</h3>
+                            <p class="text-lg text-gray-600">
+                                Developed an AI-powered risk assessment tool that mapped the digital footprint of bad actors to identify potential fraudulent activities.
+Improved the Financial Crime and Compliance team's efficiency by 50%, enabling faster detection of high-risk customers.
+Used graph-based AI models to uncover hidden relationships in financial transactions.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 4: Image Right -->
+                <div class="max-w-4xl mx-auto mb-16">
+                    <div class="grid md:grid-cols-5 gap-8 items-center">
+                        <div class="space-y-4 md:col-span-4 px-4 sm:px-6 md:px-8 lg:px-10 md:order-first">
+                            <h3 class="text-2xl font-bold text-black">Time Deposit Pricing</h3>
+                            <p class="text-lg text-gray-600">
+                                Designed and executed A/B experiments to analyze customer price sensitivity and deposit behavior.
+Developed a Time Deposit Pricing Engine, aligning deposit pricing with market interest rate trends and customer behavior, leading to a 15% revenue increase.
+
+                            </p>
+                        </div>
+                        <div class="flex justify-center md:col-span-1">
+                            <img 
+                                src="images/td.avif" 
+                                alt="Gallery Image 4" 
+                                class="w-full max-w-[150px] object-contain scale-x-[-1]"
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 5: Image Left -->
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid md:grid-cols-5 gap-8 items-center">
+                        <div class="flex justify-center md:col-span-1">
+                            <img 
+                                src="images/kd.jpg" 
+                                alt="Gallery Image 5" 
+                                class="w-full max-w-[150px] object-contain"
+                            >
+                        </div>
+                        <div class="space-y-4 md:col-span-4 px-4 sm:px-6 md:px-8 lg:px-10">
+                            <h3 class="text-2xl font-bold text-black">Multi-modal Knowledge Distillation</h3>
+                            <p class="text-lg text-gray-600">
+                                This project explores knowledge distillation techniques to create efficient, multi-modal machine learning models for deployment on resource-constrained edge devices. By transferring knowledge from a complex teacher model, the goal is to develop a compact student model capable of processing diverse sensor inputs—including audio, images, accelerometer, and health data—while maintaining accuracy. The research focuses on optimizing model compression, computational efficiency, and adaptability for TinyML applications.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section class="container mx-auto py-16">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-12 text-black text-center">Research</h2>
+                
+                <div class="space-y-8">
+                    <!-- Research Item 1 -->
+                    <div class="border-l-4 border-gray-800 pl-6">
+                        <h3 class="text-2xl font-bold text-black">Multi-modal Knowledge Distillation for Edge Devices</h3>
+                        <p class="text-lg text-gray-600 mt-2">Imperial College London</p>
+                        <p class="text-lg text-gray-600 mt-2">
+                            Research focusing on developing efficient multi-modal deep learning models for resource-constrained environments. Investigating novel knowledge distillation techniques for compressing large models while maintaining performance across different input modalities.
+                        </p>
+                    </div>
+
+                    <!-- Research Item 2 -->
+                    <div class="border-l-4 border-gray-800 pl-6">
+                        <h3 class="text-2xl font-bold text-black">AI Safety and Robustness</h3>
+                        <p class="text-lg text-gray-600 mt-2">Imperial College London</p>
+                        <p class="text-lg text-gray-600 mt-2">
+                            Investigating methods to improve the safety and reliability of large language models. Developing frameworks for systematic evaluation of model responses to adversarial inputs.
+                        </p>
+                    </div>
+
+                    <!-- Research Item 3 -->
+                    <div class="border-l-4 border-gray-800 pl-6">
+                        <h3 class="text-2xl font-bold text-black">Biomedical Signal Processing</h3>
+                        <p class="text-lg text-gray-600 mt-2">City University of Hong Kong</p>
+                        <p class="text-lg text-gray-600 mt-2">
+                            Developed machine learning models for processing and analyzing PPG signals for non-invasive blood glucose monitoring. Applied signal processing techniques for feature extraction and noise reduction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="container mx-auto py-16">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-12 text-black text-center">Skills</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Technical Skills -->
+                    <div class="space-y-4">
+                        <h3 class="text-2xl font-bold text-black">Technical</h3>
+                        <ul class="space-y-2 text-lg text-gray-600">
+                            <li>Python</li>
+                            <li>PyTorch / TensorFlow</li>
+                            <li>Natural Language Processing</li>
+                            <li>Computer Vision</li>
+                            <li>Machine Learning</li>
+                            <li>Deep Learning</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools & Frameworks -->
+                    <div class="space-y-4">
+                        <h3 class="text-2xl font-bold text-black">Tools & Frameworks</h3>
+                        <ul class="space-y-2 text-lg text-gray-600">
+                            <li>Git</li>
+                            <li>Docker</li>
+                            <li>AWS / GCP</li>
+                            <li>MLflow</li>
+                            <li>Kubernetes</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="space-y-4">
+                        <h3 class="text-2xl font-bold text-black">Soft Skills</h3>
+                        <ul class="space-y-2 text-lg text-gray-600">
+                            <li>Project Management</li>
+                            <li>Team Leadership</li>
+                            <li>Technical Writing</li>
+                            <li>Problem Solving</li>
+                            <li>Communication</li>
+                            <li>Collaboration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="container mx-auto py-16">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-12 text-black text-center">Certifications</h2>
+                
+                <div class="space-y-8">
+                    <!-- Certification 1 -->
+                    <div class="border-l-4 border-gray-800 pl-6">
+                        <h3 class="text-2xl font-bold text-black">AWS Machine Learning Specialty</h3>
+                        <p class="text-lg text-gray-600 mt-2">Amazon Web Services</p>
+                        <p class="text-gray-500">Issued: January 2023</p>
+                    </div>
+
+                    <!-- Certification 2 -->
+                    <div class="border-l-4 border-gray-800 pl-6">
+                        <h3 class="text-2xl font-bold text-black">Deep Learning Specialization</h3>
+                        <p class="text-lg text-gray-600 mt-2">DeepLearning.AI</p>
+                        <p class="text-gray-500">Issued: March 2022</p>
+                    </div>
+
+                    <!-- Certification 3 -->
+                    <div class="border-l-4 border-gray-800 pl-6">
+                        <h3 class="text-2xl font-bold text-black">TensorFlow Developer Certificate</h3>
+                        <p class="text-lg text-gray-600 mt-2">Google</p>
+                        <p class="text-gray-500">Issued: June 2022</p>
                     </div>
                 </div>
             </div>
